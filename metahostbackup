@@ -1,0 +1,2 @@
+# backup at 5:30am everyday of the week
+30 05 * * * root /root/scripts/metahostbackup.sh > /dev/null 2>> /var/log/metahostbackup.log
